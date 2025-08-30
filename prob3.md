@@ -51,7 +51,7 @@ Consider a mesh with $4$ linear elements of equal length $h = 0.5\, m$.
 * $\texttt{-2.2806e+08}\, \text{m}$
 * $\texttt{-2.2602e+08}\, \text{m}$
 
-(b) _(4 points)_ Compute the approximate solution  $u_{\text{appr}}(x)$
+(b) _(3 points)_ Compute the approximate solution $u_{\text{appr}}(x)$
 at $x = 2$.
 
 * Empty answer (no penalty)
@@ -61,10 +61,10 @@ at $x = 2$.
 * $\texttt{-2.8421e-07}\, \text{m}$
 
 __Hint:__ The approximate solution at $x = 1$ is $u_{\text{appr}}(1) =
-\texttt{-1.8998e-07}\, \text{m}:$
+\texttt{-1.8998e-07}\, \text{m}$.
 
 \(c\) _(4 points)_ Find the _elongation_ of the last element $\Omega^{4}$
-(recall that the elongation is the change in the lenght of the element).
+(recall that the elongation is the change in the length of the element).
 
 * Empty answer (no penalty) 
 * $\texttt{-6.0313e-08}\, \text{m}$ ![check.png](check.png =15x15)

@@ -92,7 +92,20 @@ K = \frac{\alpha E}{2}
 \!\right),
 $$
 with (recall) $E = 181\times 10^{6}\, \text{kN/m}^{2}$, $\alpha = -1/4$,
-$\beta = 3/4$. Next, to compute the components of the body force vector,
+$\beta = 3/4$. So, substitution of these values in the matrix above yields,
+$$
+K =
+10^{8}\times\left(
+\begin{array}{rrrrr}
+  2.48875000 & -2.48875000 &  0.00000000 &  0.00000000 &  0.00000000\\
+ -2.48875000 &  4.52500000 & -2.03625000 &  0.00000000 &  0.00000000\\
+  0.00000000 & -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000\\
+  0.00000000 &  0.00000000 & -1.58375000 &  2.71500000 & -1.13125000\\
+  0.00000000 &  0.00000000 &  0.00000000 & -1.13125000 &  1.13125000
+\end{array}
+\right).
+$$
+Next, to compute the components of the body force vector,
 $F^{e}$, we know that these are given by the quadratures,
 $$
 F^{e}_{i} = \int_{x^{e}_{1}}^{x^{e}_{2}} f(x) \psi^{e}_{i}(x)\mathrm{d} x,
@@ -164,6 +177,19 @@ F^{4}_{2}
 \left(
 \begin{array}{c}
 1\\ 2\\ 2\\ 2\\ 1
+\end{array}
+\right).
+$$
+with (recall) $\gamma = 6.25$ and $\gamma =-18.75$. So, substitution of
+these values in the vector above yields,
+$$
+F = \left(
+\begin{array}{r}
+ -4.42708333
+ -7.81250000
+ -6.25000000
+ -4.68750000
+ -1.82291667
 \end{array}
 \right).
 $$
