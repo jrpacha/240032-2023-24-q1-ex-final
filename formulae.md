@@ -185,12 +185,93 @@ these values in the vector above yields,
 $$
 F = \left(
 \begin{array}{r}
- -4.42708333
- -7.81250000
- -6.25000000
- -4.68750000
+ -4.42708333\\
+ -7.81250000\\
+ -6.25000000\\
+ -4.68750000\\
  -1.82291667
 \end{array}
 \right).
 $$
+Boundary conditions,
+* Natural $Q_{2} = Q_{3} = Q_{4} = 0$, $Q_{5} = -5$.
+* Essential: $U_{1} = 0$.
+
+__Reduced system:__ $K_{m} U_{m} = Q_{m} + F_{m} - K^{1}_{m} U_{1}$, being
+$$
+\begin{array}{l}
+K_{m} =
+10^{8}\times\left(\!
+\begin{array}{rrrr}
+  4.52500000 & -2.03625000 &  0.00000000 &  0.00000000\\
+ -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000\\
+  0.00000000 & -1.58375000 &  2.71500000 & -1.13125000\\
+  0.00000000 &  0.00000000 & -1.13125000 &  1.13125000
+\end{array}
+\!\right),\\[30pt]
+U_{m}^{\top} = \left(U_{2}, U_{3}, U_{4}, U_{5}\right),\\[10pt]
+Q_{m}^{\top} = \left(0, 0, 0, -5\right),\\[10pt]
+F_{m}^{\top} = \left(
+ -7.81250000,
+ -6.25000000,
+ -4.68750000,
+ -1.82291667
+\right),\\[10pt]
+K_{1,m}^{\top} = 10^{8}\times
+\left(\!
+ -2.48875000,
+  0.00000000,
+  0.00000000,
+  0.00000000
+\!\right). 
+\end{array}
+$$
+So the system is,
+$$
+\begin{array}{l}
+10^{8}\times\left(\!
+\begin{array}{rrrr}
+  4.52500000 & -2.03625000 &  0.00000000 &  0.00000000\\
+ -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000\\
+  0.00000000 & -1.58375000 &  2.71500000 & -1.13125000\\
+  0.00000000 &  0.00000000 & -1.13125000 &  1.13125000
+\end{array}
+\!\right)
+\left(\!
+\begin{array}{c}
+U_{2}\\
+U_{3}\\
+U_{4}\\
+U_{5} 
+\end{array}
+\!\right)\\[25pt]
+\hspace{100pt} = \left(\!
+\begin{array}{r}
+0.00000000\\
+0.00000000\\
+0.00000000\\
+-5.00000000
+\end{array}
+\!\right) +
+\left(\!
+\begin{array}{r}
+-7.81250000\\
+-6.25000000\\
+-4.68750000\\
+-1.82291667
+\end{array}
+\!\right) -
+10^{8}\times
+\left(\!
+\begin{array}{r}
+ -2.48875000\\
+  0.00000000\\
+  0.00000000\\
+  0.00000000
+\end{array}
+\!\right) U_{1},
+\end{array}
+$$
+but, by the essential boundary conditions, one has $U_{1}$, so the above
+linear system can yet be arranged to
 
