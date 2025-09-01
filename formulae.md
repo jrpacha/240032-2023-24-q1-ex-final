@@ -1,5 +1,5 @@
 ### Formulae
-
+#### Problema 3
 $$
 \begin{align*}
 0 \alpha + \beta &= \frac{3}{4},\\
@@ -183,7 +183,7 @@ $$
 with (recall) $\gamma = 6.25$ and $\gamma =-18.75$. So, substitution of
 these values in the vector above yields,
 $$
-F = \left(
+F = \left(\!
 \begin{array}{r}
  -4.42708333\\
  -7.81250000\\
@@ -191,7 +191,7 @@ F = \left(
  -4.68750000\\
  -1.82291667
 \end{array}
-\right).
+\!\right).
 $$
 Boundary conditions,
 * Natural $Q_{2} = Q_{3} = Q_{4} = 0$, $Q_{5} = -5$.
@@ -404,8 +404,13 @@ U_{4} = -2.62653502\times 10^{-7}\, \text{m},\\
 U_{5} = -3.22966577\times 10^{-7}\, \text{m}.
 \end{array}
 $$
-
-
+Elongation of the last element $\Omega^{4}$ (reacall that the elongation is
+the change in the length of the element)
+$$
+\text{Elongation} = U_{5} - U_{4} = -3.22966577\times 10^{-7} 
+- (-2.62653502\times 10^{-7}) =
+ -6.03130755\times 10^{8}\, \text{m} ,\\
+$$
 
 
 
