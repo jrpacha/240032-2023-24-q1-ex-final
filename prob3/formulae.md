@@ -122,7 +122,7 @@ $$
 Next, to compute the components of the body force vector, $F^{e}$, we know that these are given by the quadratures,
 
 $$
-F_{i}^{e} = \int_{x_{1}^{e}}^{x_{2}^{e}} f(x) \psi^{e}_{i}(x)\mathrm{d} x,
+F_{i}^{e} = \int_{x_{1}^{e}}^{x_{2}^{e}} f(x) \psi^{e}_{i}(x)\mathrm{d}x,
 $$
 
 $i = 1,2$. Here $f(x)$ is an affine function of type $f(x) = \gamma x +
