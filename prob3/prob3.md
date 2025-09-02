@@ -9,7 +9,7 @@ distributed force at the top of the column as a point force $F =
 5\, \text{kN}$.
 
 The weight of the material is represented by the body force per unit
-lenght:
+length:
 
 $$
 f(x) = -6.25 ( 3 - x ),\, \text{kN/m}.
@@ -24,13 +24,26 @@ $$
 
 where $A(x)$ is the cross-sectional area. 
 
-<div style="clear: both;">
-  <div style="float: right; margin-right 1em;">
-    <img src="../figures/fig-prob-3.png" alt="" width=312 height=255>
-  </div>
-  <div>
-  </div>
-</div>
+<html>
+<head>
+<style>
+figure {
+  clear: both;
+  float: right;
+  margin-right: -2em;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<figure>
+    <img src="../figures/fig-prob-3.png" alt="" width=312 height=250/>
+    <figcaption>Figure 1</figcaption>
+</figure>
+
+</body>
+</html>
 
 Consider a mesh with $4$ linear elements of equal length $h = 0.5\, \text{m}$.
 
