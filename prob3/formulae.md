@@ -409,10 +409,5 @@ the change in the length of the element)
 $$
 \text{Elongation} = U_{5} - U_{4} = -3.22966577\times 10^{-7} 
 - (-2.62653502\times 10^{-7}) =
- -6.03130755\times 10^{8}\, \text{m} ,\\
+ -6.03130755\times 10^{8}\, \text{m}.\\
 $$
-
-
-
-
-

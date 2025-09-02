@@ -1,7 +1,7 @@
 clearvars
 close all
 
-fileName = 'mesh.pdf';
+fileName = 'fig-prob-2.pdf';
 
 nodes = [0,0;
     5,0;
