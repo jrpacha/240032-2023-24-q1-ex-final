@@ -103,26 +103,26 @@ K = \frac{\alpha E}{2}
 \right),
 $$
 
-with (recall) $E = 181\times 10^{6}\, \text{kN/m}^{2}$, $\alpha = -1/4$,
+with (recall) $E = 181\times 10^{6}$ $\text{kN/m}^{2}$, $\alpha = -1/4$,
 $\beta = 3/4$. So, substitution of these values in the matrix above yields,
+
 $$
 K =
 10^{8}\times\left(
 \begin{array}{rrrrr}
-  2.48875000 & -2.48875000 &  0.00000000 &  0.00000000 &  0.00000000\\
- -2.48875000 &  4.52500000 & -2.03625000 &  0.00000000 &  0.00000000\\
-  0.00000000 & -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000\\
-  0.00000000 &  0.00000000 & -1.58375000 &  2.71500000 & -1.13125000\\
+  2.48875000 & -2.48875000 &  0.00000000 &  0.00000000 &  0.00000000 \\
+ -2.48875000 &  4.52500000 & -2.03625000 &  0.00000000 &  0.00000000 \\
+  0.00000000 & -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000 \\
+  0.00000000 &  0.00000000 & -1.58375000 &  2.71500000 & -1.13125000 \\
   0.00000000 &  0.00000000 &  0.00000000 & -1.13125000 &  1.13125000
 \end{array}
 \right).
 $$
 
-Next, to compute the components of the body force vector,
-$F^{e}$, we know that these are given by the quadratures,
+Next, to compute the components of the body force vector, $F^{e}$, we know that these are given by the quadratures,
 
 $$
-F^{e}_{i} = \int_{x_{1}^{e}}^{x_{2}^{e}} f(x) \psi^{e}_{i}(x)\mathrm{d} x,
+F_{i}^{e} = \int_{x_{1}^{e}}^{x_{2}^{e}} f(x) \psi^{e}_{i}(x)\mathrm{d} x,
 $$
 
 $i = 1,2$. Here $f(x)$ is an affine function of type $f(x) = \gamma x +
@@ -130,16 +130,16 @@ $i = 1,2$. Here $f(x)$ is an affine function of type $f(x) = \gamma x +
 yields,
 
 $$
-\begin{array}{l}
-    F_{1}^{e} =
+\begin{align*}
+    F_{1}^{e} &=
         \displaystyle\int_{x_{1}^{e}}^{x_{2}^{e}}
         \left(\gamma x + \delta\right)
         \frac{x-x_{2}^{e}}
         {x_{1}^{e}-x_{2}^{e}}\mathrm{d} x =
         h^{e}\left(
         \gamma\frac{2x_{1}^{e} + x_{2}^{e}}{6}
-        + \frac{\delta}{2}\right),\\[15pt]
-    F_{2}^{e} =
+        + \frac{\delta}{2}\right), \\
+    F_{2}^{e} &=
         \displaystyle\int_{x_{1}^{e}}^{x_{2}^{e}}
         \left(\gamma x + \delta\right)
         \frac{x-x_{1}^{e}}
@@ -147,7 +147,7 @@ $$
         h^{e}\left(
         \gamma\frac{x_{1}^{e} + 2 x_{2}^{e}}{6}
         + \frac{\delta}{2}\right).
-\end{array}
+\end{align*}
 $$
 
 being $h^{e} = x_{2}^{e} - x_{1}^{e} = 1/2$, the length of the element
