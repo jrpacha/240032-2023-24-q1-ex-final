@@ -1,4 +1,12 @@
 # 2023-24-ex-final. Problem 3
+
+<div align="center">
+ <figure>
+    <img src="../figures/fig-prob-3.png" alt="" width=312 height=250/>
+ </figure>
+    <figcaption>Figure 1</figcaption>
+</div>
+
 A column is made of a certain material with Young modulus $R = 181\times
 10^{6}\, \text{kN/m}^{2}$. The geometry of the column is shown in the
 figure. We wish to analyze the column for displacements using the FEM.
@@ -23,31 +31,6 @@ $$
 $$
 
 where $A(x)$ is the cross-sectional area. 
-
-<!--
-<html>
-<head>
-<style>
-figure {
-  clear: both;
-  float: right;
-  margin-right: -2em;
-  text-align: center;
-}
-</style>
-</head>
-
-<body>
--->
-<div align="center">
-    <img src="../figures/fig-prob-3.png" alt="" width=312 height=250/>
-    <figcaption>Figure 1</figcaption>
-</div>
-
-<!--
-</body>
-</html>
--->
 
 Consider a mesh with $4$ linear elements of equal length $h = 0.5\, \text{m}$.
 
