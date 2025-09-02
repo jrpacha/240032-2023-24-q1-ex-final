@@ -62,17 +62,17 @@ K^{2} = \displaystyle\frac{\alpha E}{2}\left(\begin{array}{rr}
 K^{3} = \displaystyle\frac{\alpha E}{2}\left(\!\begin{array}{rr}
 5 & -5\\
 -5 & 5
-\end{array}\!\right) + 2E\beta\left(
-\!\begin{array}{rr}
+\end{array}\right) + 2E\beta\left(
+\begin{array}{rr}
 1 & -1\\
--1 & 1\end{array}\!\right),\\[15pt]
+-1 & 1\end{array}\!\right),\\
 K^{4} = \displaystyle\frac{\alpha E}{2}\left(\!\begin{array}{rr}
 7 & -7\\
 -7 & 7
-\end{array}\!\right) + 2E\beta\left(
-\!\begin{array}{rr}
+\end{array}\right) + 2E\beta\left(
+\begin{array}{rr}
 1 & -1\\
--1 & 1\end{array}\!\right).
+-1 & 1\end{array}\right).
 \end{array}
 $$
 
