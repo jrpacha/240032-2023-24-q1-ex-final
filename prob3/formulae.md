@@ -183,11 +183,11 @@ Hence, after coupling the local vectors, it turns out that the global body force
 $$
 F = \left(
 \begin{array}{c}
-F^{1}_{1} \\
-F^{1}_{2} + F^{2}_{1} \\
-F^{2}_{2} + F^{3}_{1} \\
-F^{3}_{2} + F^{4}_{1} \\
-F^{4}_{2}
+F_{1}^{1} \\
+F_{2}^{1} + F_{1}^{2} \\
+F_{2}^{2} + F_{1}^{3} \\
+F_{2}^{3} + F_{1}^{4} \\
+F_{2}^{4}
 \end{array}
 \right) =
 \frac{\gamma}{24}
