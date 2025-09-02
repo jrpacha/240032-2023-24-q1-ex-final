@@ -4,21 +4,21 @@
     
  
 A column is made of a certain material with Young modulus $R = 181\times
-10^{6}\, \text{kN/m}^{2}$. The geometry of the column is shown in the
+10^{6}$ $\text{kN/m}^{2}$. The geometry of the column is shown in the
 figure. We wish to analyze the column for displacements using the FEM.
 
 The column is indeed a three-dimensional structure. However, we wish to
 approximate the column as one-dimensional. To this end, we represent the
 distributed force at the top of the column as a point force $F = 
-5\, \text{kN}$. 
+5$ $\text{kN}$. 
 
 The weight of the material is represented by the body force per unit
 length: 
 
-<img src="../figures/fig-prob-3.png" alt="" width="320" height="260" align="right">
+<img src="../figures/fig-prob-3.png" alt="" width="350" height="270" align="right">
 
 $$
-f(x) = -6.25 ( 3 - x ),\, \text{kN/m}.
+f(x) = -6.25 ( 3 - x ) \text{kN/m}.
 $$
 
 The governing differential equation for the problem is given by:
@@ -30,7 +30,7 @@ $$
 
 where $A(x)$ is the cross-sectional area. 
 
-Consider a mesh with $4$ linear elements of equal length $h = 0.5\, \text{m}$.
+Consider a mesh with $4$ linear elements of equal length $h = 0.5$ $\text{m}$.
 
 (a) (3 points) The value $K_{2,3}$ of the stiffness matrix is:
 
