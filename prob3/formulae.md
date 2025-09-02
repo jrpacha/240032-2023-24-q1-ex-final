@@ -9,7 +9,7 @@ $$
 $$
 
 So the values of $\alpha$ and $\beta$ turns out to be $\alpha =
-\dfrac{1}{4}$ and $\beta = \frac{1}{2}$. Therefore,
+\frac{1}{4}$ and $\beta = \frac{1}{2}$. Therefore,
 
 $$
 A(x) = \frac{3}{4} - \frac{\alpha}{4}
@@ -24,18 +24,18 @@ $$
 $$
 
 $$
-\begin{align*}
-K^{e}_{1,1} &= \int_{x^{e}_{1}}^{x^{e}_{2}} E A(x) 
+\begin{array}{rcl}
+K^{e}_{1,1} &=& \int_{x^{e}_{1}}^{x^{e}_{2}} E A(x) 
 \frac{\mathrm{d}\psi^{e}_{1}}
 {\mathrm{d}x}(x) \frac{\mathrm{d}\psi^{e}_{1}}
 {\mathrm{d}x}(x)\mathrm{d} x \\
-&=
+ &=&
 \frac{E}{\left(x^{e}_{2}-x^{e}_{1}\right)^{2}}\int_{x^{e}_{1}}^{x^{e}_{2}}
 \left(\alpha x + \beta\right)\mathrm{d} x =
 \frac{E}{h^{e}}\left(\alpha\frac{x^{e}_{1} + x^{e}_{2}}{2} + \beta\right)
 = K_{2,2},\\
-K^{e}_{1,2} &= K^{e}_{2,1} = - K^{e}_{1,1},
-\end{align*}
+K^{e}_{1,2} &=& K^{e}_{2,1} = - K^{e}_{1,1},
+\end{array}
 $$
 
 being $h^{e} = x^{e}_{2} - x^{e}_1 = 1/2$, the length of the element
