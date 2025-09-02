@@ -3,8 +3,8 @@
 <div align="center">
  <figure>
     <img src="../figures/fig-prob-3.png" alt="" width=312 height=250/>
- </figure>
     <figcaption>Figure 1</figcaption>
+ </figure>
 </div>
 
 A column is made of a certain material with Young modulus $R = 181\times
