@@ -24,7 +24,7 @@ $$
 
 $$
 \begin{align*}
-K^{e}_{1,1} &= \int_{x_{1}^{e}}^{x_{2}^{e}} E A(x) 
+K_{1,1}^{e} &= \int_{x_{1}^{e}}^{x_{2}^{e}} E A(x) 
 \frac{\mathrm{d}\psi_{1}^{e}}
 {\mathrm{d}x}(x) \frac{\mathrm{d}\psi_{1}^{e}}
 {\mathrm{d}x}(x)\mathrm{d} x \\
