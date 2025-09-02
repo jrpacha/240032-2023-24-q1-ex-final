@@ -138,7 +138,7 @@ $$
         {x_{1}^{e}-x_{2}^{e}}\mathrm{d} x =
         h^{e}\left(
         \gamma\frac{2x_{1}^{e} + x_{2}^{e}}{6}
-        + \frac{\delta}{2}\right), \\
+        + \frac{\delta}{2}\right), \\ \\
     F_{2}^{e} &=
         \displaystyle\int_{x_{1}^{e}}^{x_{2}^{e}}
         \left(\gamma x + \delta\right)
@@ -147,34 +147,36 @@ $$
         h^{e}\left(
         \gamma\frac{x_{1}^{e} + 2 x_{2}^{e}}{6}
         + \frac{\delta}{2}\right).
-\end{align*}
+\end{align*}<D-c>
 $$
 
 being $h^{e} = x_{2}^{e} - x_{1}^{e} = 1/2$, the length of the element
 $\Omega^{e}$, for $e = 1,2,3,4$. Therefore:
 
 $$
+\begin{array}{cc}
 \begin{array}{cccc}
-F^{1} = \displaystyle \frac{1}{2}\left(
+F^{1} = \displaystyle \frac{1}{24}\left(
     \begin{array}{c}
-    \displaystyle \frac{\gamma}{12} + \frac{\delta}{2}b\\ 
-    \displaystyle \frac{\gamma}{6} + \frac{\delta}{2}
+     \gamma + 6\delta\\ 
+     2\gamma + 6\delta
     \end{array}\right), &
-F^{2} = \displaystyle \frac{1}{2}\left(
+F^{2} = \displaystyle \frac{1}{24}\left(
     \begin{array}{c}
-    \displaystyle \frac{\gamma}{3} + \frac{\delta}{2} \\ 
-    \displaystyle \frac{5\gamma}{6} + \frac{\delta}{2}
-    \end{array}\right),&
-F^{3} = \displaystyle \frac{1}{2}\left(
+      4\gamma + 6\delta \\
+     5\gamma + 6\delta
+    \end{array}\right), \\ 
+F^{3} = \displaystyle \frac{1}{24}\left(
     \begin{array}{c}
-    \displaystyle \frac{7\gamma}{12} + \frac{\delta}{2} \\ 
-    \displaystyle \frac{2\gamma}{3} + \frac{\delta}{2}
+     7\gamma + 6\delta \\ 
+     8\gamma + 6\delta
     \end{array}\right), &
-F^{4} = \displaystyle \frac{1}{2}\left(
+F^{4} = \displaystyle \frac{1}{24}\left(
     \begin{array}{c}
-    \displaystyle \frac{5\gamma}{6} + \frac{\delta}{2} \\
-    \displaystyle \frac{11\gamma}{12} + \frac{\delta}{2}
+    10\gamma + 6\delta \\
+    11\gamma + 6\delta
     \end{array}\right).
+\end{array}
 \end{array}
 $$
 
@@ -278,7 +280,7 @@ So the system is,
 
 $$
 \begin{align*}
- 10^{8}\times \left(
+ 10^{8} \times & \left(
   \begin{array}{rrrr}
   4.52500000 & -2.03625000 &  0.00000000 &  0.00000000 \\
  -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000 \\
@@ -293,8 +295,8 @@ U_{3} \\
 U_{4} \\
 U_{5} 
 \end{array}
-\right) & \\ 
- = \left(
+\right) \\ 
+ &= \left(
 \begin{array}{r}
 0.00000000 \\
 0.00000000 \\
@@ -309,8 +311,8 @@ U_{5}
 -4.68750000 \\
 -1.82291667
 \end{array}
-\right) -
-10^{8}\times
+\right)
+ -10^{8}\times
 \left(
 \begin{array}{r}
  -2.48875000 \\
@@ -318,7 +320,7 @@ U_{5}
   0.00000000 \\
   0.00000000
 \end{array}
-\right) U_{1}, &
+\right) U_{1}, 
 \end{align*}
 $$
 
@@ -326,7 +328,6 @@ but, by the essential boundary conditions, one has $U_{1} = 0$, so the above
 linear system writes,
 
 $$
-\begin{align*}
 \left(
 \begin{array}{rrrr}
   4.52500000 & -2.03625000 &  0.00000000 &  0.00000000\\
@@ -342,7 +343,7 @@ U_{3}\\
 U_{4}\\
 U_{5}
 \end{array}
-\right) & \\
+\right) 
 = 10^{-8}\times 
 \left(
 \begin{array}{r}
@@ -351,15 +352,13 @@ U_{5}
  -4.68750000\\
  -6.82291667
 \end{array}
-\right) &
-\end{align*}
+\right) 
 $$
 
 We solve it, for example by Cramer's rule, to get:
 
 $$
-\begin{align*}
-U_{2} &= 10^{-8}\times \frac{\left|
+U_{2} = 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
  -7.81250000 & -2.03625000 &  0.00000000 &  0.00000000\\
  -6.25000000 &  3.62000000 & -1.58375000 &  0.00000000\\
@@ -375,9 +374,11 @@ U_{2} &= 10^{-8}\times \frac{\left|
   0.00000000 &  0.00000000 & -1.13125000 &  1.13125000
 \end{array}
 \right|
-} = -1.02754060\times 10^{-7}, \\
-%
-U_{3} &= 10^{-8}\times \frac{\left|
+} = -1.02754060\times 10^{-7}, 
+$$
+
+$$
+U_{3} = 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
    4.52500000 & -7.81250000  &  0.00000000 &  0.00000000\\
   -2.03625000 & -6.25000000  & -1.58375000 &  0.00000000\\
@@ -394,8 +395,10 @@ U_{3} &= 10^{-8}\times \frac{\left|
 \end{array}
 \right|
 } = -1.89975259\times 10^{-7}, \\
-%
-U_{4} &= 10^{-8}\times \frac{\left|
+$$
+
+$$
+U_{4} = 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
   4.52500000 &  -2.03625000 & -7.81250000&  0.00000000\\
  -2.03625000 &   3.62000000 & -6.25000000&  0.00000000\\
@@ -411,9 +414,11 @@ U_{4} &= 10^{-8}\times \frac{\left|
   0.00000000 &   0.00000000 & -1.13125000 &  1.13125000
 \end{array}
 \right|
-} = -2.62653502\times 10^{-7}, \\
-%
-U_{5} &= 10^{-8}\times \frac{\left|
+} = -2.62653502\times 10^{-7}, 
+$$
+
+$$
+U_{5} = 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
   4.52500000 &  -2.03625000 &  0.00000000 & -7.81250000\\
  -2.03625000 &   3.62000000 & -1.58375000 & -6.25000000\\
@@ -430,14 +435,13 @@ U_{5} &= 10^{-8}\times \frac{\left|
 \end{array}
 \right|
 } = -3.22966577\times 10^{-7},
-\end{align*}
 $$
 
 Therefore, the displacements are
 
 $$
 \begin{align*}
-U_{1} &=  0.00000000\times 10^{-7}\ \text{m},\\
+U_{1} &=  \ \ \ 0.00000000\times 10^{-7}\ \text{m},\\
 U_{2} &= -1.02754060\times 10^{-7}\ \text{m},\\
 U_{3} &= -1.89975259\times 10^{-7}\ \text{m},\\
 U_{4} &= -2.62653502\times 10^{-7}\ \text{m},\\
@@ -445,11 +449,13 @@ U_{5} &= -3.22966577\times 10^{-7}\ \text{m}.
 \end{align*}
 $$
 
-Elongation of the last element $\Omega^{4}$ (reacall that the elongation is
-the change in the length of the element)
+_Elongation_ of element: $\Omega^{e}$, $\Delta\ell^{e} = u_{2}^{e} - u^{1}_{e}$, $e = 1,2,3,4$. Then the elongation of the
+the last element is,
 
 $$
-\text{Elongation} = U_{5} - U_{4} = -3.22966577\times 10^{-7} 
--(-2.62653502\times 10^{-7}) =
- -6.03130755\times 10^{8}\ \text{m}.\\
+\begin{align*}
+ \Delta\ell^{4} &= u_{2}^{e} - u_{1}^{e} = U_{5} - U_{4} = -3.22966577\times 10^{-7} 
+-(-2.62653502\times 10^{-7})\\
+ &= -6.03130755\times 10^{8}\ \text{m}.\\
+\end{align*}
 $$
