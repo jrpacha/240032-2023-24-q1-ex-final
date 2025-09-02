@@ -44,36 +44,36 @@ $$
 \begin{array}{c}
 K^{1} = \displaystyle\frac{\alpha E}{2}\left(
 \begin{array}{rr}
-1 & -1 \\[15pt]
+1 & -1 \\ [15pt]
 -1 & 1
 \end{array}\right) 
 + 2E\beta\left(
 \begin{array}{rr}
-1 & -1 \\[15pt]
+1 & -1 \\ [15pt]
 -1 & 1\end{array}
-\right), \\[15pt] 
+\right), \\ [15pt] 
 K^{2} = \displaystyle\frac{\alpha E}{2}\left(\begin{array}{rr}
-3 & -3 \\[15pt]
+3 & -3 \\ [15pt]
 -3 & 3
 \end{array}\right) + 2E\beta\left(
 \!\begin{array}{rr}
-1 & -1 \\[15pt]
--1 & 1\end{array}\right), \\[15pt]
+1 & -1 \\ [15pt]
+-1 & 1\end{array}\right), \\ [15pt]
 K^{3} = \displaystyle\frac{\alpha E}{2}
 \left(\begin{array}{rr}
-5 & -5 \\[15pt]
+5 & -5 \\ [15pt]
 -5 & 5
 \end{array}\right) + 2E\beta\left(
 \begin{array}{rr}
-1 & -1 \\[15pt]
--1 & 1\end{array}\right), \\[15pt]
+1 & -1 \\ [15pt]
+-1 & 1\end{array}\right), \\ [15pt]
 K^{4} = \displaystyle\frac{\alpha E}{2}
 \left(\begin{array}{rr}
-7 & -7 \\[15pt]
+7 & -7 \\ [15pt]
 -7 & 7
 \end{array}\right) + 2E\beta\left(
 \begin{array}{rr}
-1 & -1 \\[15pt]
+1 & -1 \\ [15pt]
 -1 & 1
 \end{array}\right).
 \end{array}
@@ -84,18 +84,18 @@ Then, the coupled stiffness matrix is,
 $$
 K = \frac{\alpha E}{2}
 \left(\begin{array}{rrrrr}
-1 & -1 & & &\\
+1 & -1 & & & \\
 -1 & 4 & -3 & & \\
 & -3 & 8 & -5 & \\
 & & -5 & 12 & -7 \\
 & & & -7 & 7
-\end{array}\!\right) +
+\end{array} \right) +
 2 E \beta \left(
 \begin{array}{rrrrr}
-1 & -1 & & &\\
--1 & 2 & -1 & &\\
-& -1 & 2 & -1 &\\
-& & -1 & 2 & -1\\
+1 & -1 & & & \\
+-1 & 2 & -1 & & \\
+& -1 & 2 & -1 & \\
+& & -1 & 2 & -1 \\
 & & & -1 & 1
 \end{array}
 \right),
