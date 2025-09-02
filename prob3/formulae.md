@@ -1,5 +1,6 @@
 ### Formulae
 #### Problema 3
+
 $$
 \begin{align*}
 0 \alpha + \beta &= \frac{3}{4},\\
@@ -13,8 +14,10 @@ So the values of $\alpha$ and $\beta$ turns out to be $\alpha =
 $$
 A(x) = \frac{3}{4} - \frac{\alpha}{4}
 $$
+
 Shape functions of the linear 1D element $\Omega^{e}$. First node at
 position $x^{e}_{1}$, second node at position $x^{e}_{2}$:
+
 $$
 \psi^{e}_{1}(x) = \frac{x-x^{e}_{2}}{x^{e}_{1} - x^{e}_{2}},\qquad\qquad
 \psi^{e}_{2}(x) = \frac{x-x^{e}_{1}}{x^{e}_{2} - x^{e}_{1}}.\qquad\qquad
@@ -34,8 +37,10 @@ K^{e}_{1,1} &= \int_{x^{e}_{1}}^{x^{e}_{2}} E A(x)
 K^{e}_{1,2} &= K^{e}_{2,1} = - K^{e}_{1,1},
 \end{align*}
 $$
+
 being $h^{e} = x^{e}_{2} - x^{e}_1 = 1/2$, the length of the element
 $\Omega^{e}$, for $e = 1,2,3,4$. Therefore:
+
 $$
 \begin{array}{c}
 K^{1} = \displaystyle\frac{\alpha E}{2}\left(\!
@@ -71,7 +76,9 @@ K^{4} = \displaystyle\frac{\alpha E}{2}\left(\!\begin{array}{rr}
 -1 & 1\end{array}\!\right).
 \end{array}
 $$
+
 Then, the coupled stiffness matrix is,
+
 $$
 K = \frac{\alpha E}{2}
 \left(\!\begin{array}{rrrrr}
@@ -91,6 +98,7 @@ K = \frac{\alpha E}{2}
 \end{array}
 \!\right),
 $$
+
 with (recall) $E = 181\times 10^{6}\, \text{kN/m}^{2}$, $\alpha = -1/4$,
 $\beta = 3/4$. So, substitution of these values in the matrix above yields,
 $$
@@ -105,14 +113,18 @@ K =
 \end{array}
 \right).
 $$
+
 Next, to compute the components of the body force vector,
 $F^{e}$, we know that these are given by the quadratures,
+
 $$
 F^{e}_{i} = \int_{x^{e}_{1}}^{x^{e}_{2}} f(x) \psi^{e}_{i}(x)\mathrm{d} x,
 $$
+
 $i = 1,2$. Here $f(x)$ is an affine function of type $f(x) = \gamma x +
 \delta$, with $\gamma = 6.25$ and $\delta = -6.25\times 3 = -18.75$. This
 yields,
+
 $$
 \begin{array}{l}
     F^{e}_{1} =
@@ -133,8 +145,10 @@ $$
         + \frac{\delta}{2}\right).
 \end{array}
 $$
+
 being $h^{e} = x^{e}_{2} - x^{e}_{1} = 1/2$, the length of the element
 $\Omega^{e}$, for $e = 1,2,3,4$. Therefore:
+
 $$
 \begin{array}{cccc}
 F^{1} = \displaystyle \frac{1}{2}\left(
@@ -159,7 +173,9 @@ F^{4} = \displaystyle \frac{1}{2}\left(
     \end{array}\right).
 \end{array}
 $$
+
 Hence, after coupling the local vectors, it turns out that the global body force vector is given by 
+
 $$
 F = \left(\begin{array}{c}
 F^{1}_{1}\\
@@ -180,8 +196,10 @@ F^{4}_{2}
 \end{array}
 \right).
 $$
+
 with (recall) $\gamma = 6.25$ and $\gamma =-18.75$. So, substitution of
 these values in the vector above yields,
+
 $$
 F = \left(\!
 \begin{array}{r}
@@ -193,11 +211,13 @@ F = \left(\!
 \end{array}
 \!\right).
 $$
+
 Boundary conditions,
 * Natural $Q_{2} = Q_{3} = Q_{4} = 0$, $Q_{5} = -5$.
 * Essential: $U_{1} = 0$.
 
 __Reduced system:__ $K_{m} U_{m} = Q_{m} + F_{m} - K_{1,m} U_{1}$, being
+
 $$
 \begin{array}{l}
 K_{m} =
@@ -238,7 +258,9 @@ K_{1,m}^{\top} = 10^{8}\times
 \!\right). 
 \end{array}
 $$
+
 So the system is,
+
 $$
 \begin{array}{l}
 10^{8}\times\left(\!
@@ -284,8 +306,10 @@ U_{5}
 \!\right) U_{1},
 \end{array}
 $$
+
 but, by the essential boundary conditions, one has $U_{1} = 0$, so the above
 linear system writes,
+
 $$
 \left(\!
 \begin{array}{rrrr}
@@ -313,7 +337,9 @@ U_{5}
 \end{array}
 \!\right)
 $$
+
 We solve it, for example by Cramer's rule, to get:
+
 $$
 U_{2} = 10^{-8}\times\frac{\left|
 \begin{array}{rrrr}
@@ -395,6 +421,7 @@ U_{5} = 10^{-8}\times\frac{\left|
 $$
 
 Therefore, the displacements are
+
 $$
 \begin{array}{r}
 U_{1} = \phantom{-}0.00000000\times 10^{-7}\, \text{m},\\
@@ -404,10 +431,13 @@ U_{4} = -2.62653502\times 10^{-7}\, \text{m},\\
 U_{5} = -3.22966577\times 10^{-7}\, \text{m}.
 \end{array}
 $$
+
 Elongation of the last element $\Omega^{4}$ (reacall that the elongation is
 the change in the length of the element)
+
 $$
 \text{Elongation} = U_{5} - U_{4} = -3.22966577\times 10^{-7} 
+$$
 - (-2.62653502\times 10^{-7}) =
  -6.03130755\times 10^{8}\, \text{m}.\\
 $$
