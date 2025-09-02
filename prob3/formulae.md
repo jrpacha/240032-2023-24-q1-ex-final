@@ -19,8 +19,8 @@ Shape functions of the linear 1D element $\Omega^{e}$. First node at
 position $x^{e}\_{1}$, second node at position $x^{e}\_{2}$:
 
 $$
-\psi^{e}_{1}(x) = \frac{x-x^{e}_{2}}{x^{e}_{1} - x^{e}_{2}},\qquad\qquad
-\psi^{e}_{2}(x) = \frac{x-x^{e}_{1}}{x^{e}_{2} - x^{e}_{1}}.\qquad\qquad
+\psi^{e}\_{1}(x) = \frac{x-x^{e}\_{2}}{x^{e}_{1} - x^{e}\_{2}},\qquad\qquad
+\psi^{e}\_{2}(x) = \frac{x-x^{e}\_{1}}{x^{e}_{2} - x^{e}\_{1}}.\qquad\qquad
 $$
 
 $$
