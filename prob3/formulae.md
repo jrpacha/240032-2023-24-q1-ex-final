@@ -157,22 +157,22 @@ $$
 \begin{array}{cccc}
 F^{1} = \displaystyle \frac{1}{2}\left(
     \begin{array}{c}
-    \displaystyle \frac{\gamma}{12} + \frac{\delta}{2}b\\ [7pt]
+    \displaystyle \frac{\gamma}{12} + \frac{\delta}{2}b\\ 
     \displaystyle \frac{\gamma}{6} + \frac{\delta}{2}
     \end{array}\right), &
 F^{2} = \displaystyle \frac{1}{2}\left(
     \begin{array}{c}
-    \displaystyle \frac{\gamma}{3} + \frac{\delta}{2} \\ [7pt]
+    \displaystyle \frac{\gamma}{3} + \frac{\delta}{2} \\ 
     \displaystyle \frac{5\gamma}{6} + \frac{\delta}{2}
     \end{array}\right),&
 F^{3} = \displaystyle \frac{1}{2}\left(
     \begin{array}{c}
-    \displaystyle \frac{7\gamma}{12} + \frac{\delta}{2} \\ [7pt]
+    \displaystyle \frac{7\gamma}{12} + \frac{\delta}{2} \\ 
     \displaystyle \frac{2\gamma}{3} + \frac{\delta}{2}
     \end{array}\right), &
 F^{4} = \displaystyle \frac{1}{2}\left(
     \begin{array}{c}
-    \displaystyle \frac{5\gamma}{6} + \frac{\delta}{2} \\ [7pt]
+    \displaystyle \frac{5\gamma}{6} + \frac{\delta}{2} \\
     \displaystyle \frac{11\gamma}{12} + \frac{\delta}{2}
     \end{array}\right).
 \end{array}
