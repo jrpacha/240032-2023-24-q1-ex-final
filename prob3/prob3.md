@@ -14,8 +14,8 @@ distributed force at the top of the column as a point force $F =
 
 The weight of the material is represented by the body force per unit
 length: 
-<img src="../figures/fig-prob-3.png" alt="" width="312" height="250" align="right">
 
+<img src="../figures/fig-prob-3.png" alt="" width="320" height="260" align="right">
 
 $$
 f(x) = -6.25 ( 3 - x ),\, \text{kN/m}.
