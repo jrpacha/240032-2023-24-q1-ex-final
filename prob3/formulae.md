@@ -32,8 +32,8 @@ K^{e}_{1,1} &= \int_{x_{1}^{e}}^{x_{2}^{e}} E A(x)
 \frac{E}{\left(x_{2}^{e}-x_{1}^{e}\right)^{2}}\int_{x_{1}^{e}}^{x_{2}^{e}}
 \left(\alpha x + \beta\right)\mathrm{d} x =
 \frac{E}{h^{e}}\left(\alpha\frac{x_{1}^{e} + x_{2}^{e}}{2} + \beta\right)
-= K_{2,2},\\
-K^{e}_{1,2} &= K^{e}_{2,1} = - K^{e}_{1,1},
+= K_{2,2}^{e},\\
+K_{1,2}^{e} &= K_{2,1}^{e} = -K_{1,1}^{e},
 \end{align*}
 $$
 
