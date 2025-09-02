@@ -2,7 +2,7 @@
 
 $$
 \begin{align*}
-0 \alpha + \beta &= \frac{3}{4},\\
+0 \alpha + \beta &= \frac{3}{4},\\ 
 2 \alpha + \beta &= \frac{1}{4},
 \end{align*}
 $$
@@ -27,7 +27,7 @@ $$
 K_{1,1}^{e} &= \int_{x_{1}^{e}}^{x_{2}^{e}} E A(x) 
 \frac{\mathrm{d}\psi_{1}^{e}}
 {\mathrm{d}x}(x) \frac{\mathrm{d}\psi_{1}^{e}}
-{\mathrm{d}x}(x)\mathrm{d} x \\
+{\mathrm{d}x}(x)\mathrm{d} x \\ [15pt]
  &=
 \frac{E}{\left(x_{2}^{e}-x_{1}^{e}\right)^{2}}\int_{x_{1}^{e}}^{x_{2}^{e}}
 \left(\alpha x + \beta\right)\mathrm{d} x =
