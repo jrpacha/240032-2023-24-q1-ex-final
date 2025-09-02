@@ -16,7 +16,7 @@ A(x) = \frac{3}{4} - \frac{\alpha}{4}
 $$
 
 Shape functions of the linear 1D element $\Omega^{e}$. First node at
-position $x^{e}\_{1}$, second node at position $x^{e}\_{2}$:
+position $x^{e}_\text{$1$}$, second node at position $x^{e}_\text{$2$}$:
 
 $$
 \psi^{e}\_{1}(x) = \frac{x-x^{e}\_{2}}{x^{e}\_{1} - x^{e}\_{2}},\qquad\qquad
