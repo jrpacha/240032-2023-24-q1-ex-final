@@ -277,7 +277,7 @@ $$
 So the system is,
 
 $$
-\begin{align*}
+\begin{multline*}
 10^{8}\times\left(
 \begin{array}{rrrr}
   4.52500000 & -2.03625000 &  0.00000000 &  0.00000000 \\
@@ -319,7 +319,7 @@ U_{5}
   0.00000000
 \end{array}
 \right) U_{1},
-\end{align*}
+\end{multline*}
 $$
 
 but, by the essential boundary conditions, one has $U_{1} = 0$, so the above
