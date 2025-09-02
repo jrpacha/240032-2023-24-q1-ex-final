@@ -27,7 +27,7 @@ $$
 K_{1,1}^{e} &= \int_{x_{1}^{e}}^{x_{2}^{e}} E A(x) 
 \frac{\mathrm{d}\psi_{1}^{e}}
 {\mathrm{d}x}(x) \frac{\mathrm{d}\psi_{1}^{e}}
-{\mathrm{d}x}(x)\mathrm{d} x \\ [15pt]
+{\mathrm{d}x}(x)\mathrm{d} x \\ 
  &=
 \frac{E}{\left(x_{2}^{e}-x_{1}^{e}\right)^{2}}\int_{x_{1}^{e}}^{x_{2}^{e}}
 \left(\alpha x + \beta\right)\mathrm{d} x =
