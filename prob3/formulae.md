@@ -1,5 +1,4 @@
-### Formulae
-#### Problema 3
+# Formulae
 
 $$
 \begin{align*}
@@ -25,20 +24,20 @@ $$
 
 $$
 \begin{align*}
-K^{e}_{1,1} &= \int_{x^{e}_{1}}^{x^{e}_{2}} E A(x) 
-\frac{\mathrm{d}\psi^{e}_{1}}
-{\mathrm{d}x}(x) \frac{\mathrm{d}\psi^{e}_{1}}
+K^{e}_{1,1} &= \int_{x_{1}^{e}}^{x_{2}^{e}} E A(x) 
+\frac{\mathrm{d}\psi_{1}^{e}}
+{\mathrm{d}x}(x) \frac{\mathrm{d}\psi_{1}^{e}}
 {\mathrm{d}x}(x)\mathrm{d} x \\
  &=
-\frac{E}{\left(x^{e}_{2}-x^{e}_{1}\right)^{2}}\int_{x^{e}_{1}}^{x^{e}_{2}}
+\frac{E}{\left(x_{2}^{e}-x_{1}^{e}\right)^{2}}\int_{x_{1}^{e}}^{x_{2}^{e}}
 \left(\alpha x + \beta\right)\mathrm{d} x =
-\frac{E}{h^{e}}\left(\alpha\frac{x^{e}_{1} + x^{e}_{2}}{2} + \beta\right)
+\frac{E}{h^{e}}\left(\alpha\frac{x_{1}^{e} + x_{2}^{e}}{2} + \beta\right)
 = K_{2,2},\\
-K^{e}_{1,2} &=& K^{e}_{2,1} = - K^{e}_{1,1},
-\end{array}
+K^{e}_{1,2} &= K^{e}_{2,1} = - K^{e}_{1,1},
+\end{align*}
 $$
 
-being $h^{e} = x^{e}_{2} - x^{e}_1 = 1/2$, the length of the element
+being $h^{e} = x_{2}^{e} - x^{e}_1 = 1/2$, the length of the element
 $\Omega^{e}$, for $e = 1,2,3,4$. Therefore:
 
 $$
@@ -118,7 +117,7 @@ Next, to compute the components of the body force vector,
 $F^{e}$, we know that these are given by the quadratures,
 
 $$
-F^{e}_{i} = \int_{x^{e}_{1}}^{x^{e}_{2}} f(x) \psi^{e}_{i}(x)\mathrm{d} x,
+F^{e}_{i} = \int_{x_{1}^{e}}^{x_{2}^{e}} f(x) \psi^{e}_{i}(x)\mathrm{d} x,
 $$
 
 $i = 1,2$. Here $f(x)$ is an affine function of type $f(x) = \gamma x +
@@ -127,26 +126,26 @@ yields,
 
 $$
 \begin{array}{l}
-    F^{e}_{1} =
-        \displaystyle\int_{x^{e}_{1}}^{x^{e}_{2}}
+    F_{1}^{e} =
+        \displaystyle\int_{x_{1}^{e}}^{x_{2}^{e}}
         \left(\gamma x + \delta\right)
-        \frac{x-x^{e}_{2}}
-        {x^{e}_{1}-x^{e}_{2}}\mathrm{d} x =
+        \frac{x-x_{2}^{e}}
+        {x_{1}^{e}-x_{2}^{e}}\mathrm{d} x =
         h^{e}\left(
-        \gamma\frac{2x^{e}_{1} + x^{e}_{2}}{6}
+        \gamma\frac{2x_{1}^{e} + x_{2}^{e}}{6}
         + \frac{\delta}{2}\right),\\[15pt]
-    F^{e}_{2} =
-        \displaystyle\int_{x^{e}_{1}}^{x^{e}_{2}}
+    F_{2}^{e} =
+        \displaystyle\int_{x_{1}^{e}}^{x_{2}^{e}}
         \left(\gamma x + \delta\right)
-        \frac{x-x^{e}_{1}}
-        {x^{e}_{2}-x^{e}_{1}}\mathrm{d} x =
+        \frac{x-x_{1}^{e}}
+        {x_{2}^{e}-x_{1}^{e}}\mathrm{d} x =
         h^{e}\left(
-        \gamma\frac{x^{e}_{1} + 2 x^{e}_{2}}{6}
+        \gamma\frac{x_{1}^{e} + 2 x_{2}^{e}}{6}
         + \frac{\delta}{2}\right).
 \end{array}
 $$
 
-being $h^{e} = x^{e}_{2} - x^{e}_{1} = 1/2$, the length of the element
+being $h^{e} = x_{2}^{e} - x_{1}^{e} = 1/2$, the length of the element
 $\Omega^{e}$, for $e = 1,2,3,4$. Therefore:
 
 $$
