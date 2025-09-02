@@ -319,38 +319,38 @@ U_{5}
   0.00000000
 \end{array}
 \right) U_{1},
-\end{array}
+\end{align*}
 $$
 
 but, by the essential boundary conditions, one has $U_{1} = 0$, so the above
 linear system writes,
 
 $$
-\left(\!
+\left(
 \begin{array}{rrrr}
   4.52500000 & -2.03625000 &  0.00000000 &  0.00000000\\
  -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000\\
   0.00000000 & -1.58375000 &  2.71500000 & -1.13125000\\
   0.00000000 &  0.00000000 & -1.13125000 &  1.13125000
 \end{array}
-\!\right) 
-\!\left(
+\right) 
+\left(
 \begin{array}{c}
 U_{2}\\
 U_{3}\\
 U_{4}\\
 U_{5}
 \end{array}
-\!\right) =
+\right) =
 10^{-8}\times 
-\left(\!
+\left(
 \begin{array}{r}
  -7.81250000\\
  -6.25000000\\
  -4.68750000\\
  -6.82291667
 \end{array}
-\!\right)
+\right)
 $$
 
 We solve it, for example by Cramer's rule, to get:
@@ -438,13 +438,13 @@ $$
 Therefore, the displacements are
 
 $$
-\begin{array}{r}
-U_{1} = \phantom{-}0.00000000\times 10^{-7}\, \text{m},\\
-U_{2} = -1.02754060\times 10^{-7}\, \text{m},\\
-U_{3} = -1.89975259\times 10^{-7}\, \text{m},\\
-U_{4} = -2.62653502\times 10^{-7}\, \text{m},\\
-U_{5} = -3.22966577\times 10^{-7}\, \text{m}.
-\end{array}
+\begin{align*}
+U_{1} =  0.00000000\times 10^{-7}\ \text{m},\\
+U_{2} = -1.02754060\times 10^{-7}\ \text{m},\\
+U_{3} = -1.89975259\times 10^{-7}\ \text{m},\\
+U_{4} = -2.62653502\times 10^{-7}\ \text{m},\\
+U_{5} = -3.22966577\times 10^{-7}\ \text{m}.
+\end{align*}
 $$
 
 Elongation of the last element $\Omega^{4}$ (reacall that the elongation is
@@ -452,7 +452,6 @@ the change in the length of the element)
 
 $$
 \text{Elongation} = U_{5} - U_{4} = -3.22966577\times 10^{-7} 
-$$
 - (-2.62653502\times 10^{-7}) =
  -6.03130755\times 10^{8}\, \text{m}.\\
 $$
