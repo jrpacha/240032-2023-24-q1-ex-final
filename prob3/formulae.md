@@ -49,7 +49,7 @@ K^{1} = \displaystyle\frac{\alpha E}{2}
 -1 & 1
 \end{array}
 \right) 
-+ 2E\beta\left(
++2E\beta\left(
 \begin{array}{rr}
 1 & -1 \\ 
 -1 & 1\end{array}
@@ -58,7 +58,7 @@ K^{2} = \displaystyle\frac{\alpha E}{2}\left(\begin{array}{rr}
 3 & -3 \\ 
 -3 & 3
 \end{array}\right) + 2E\beta\left(
-\!\begin{array}{rr}
+\begin{array}{rr}
 1 & -1 \\ 
 -1 & 1\end{array}\right), \\
 K^{3} = \displaystyle\frac{\alpha E}{2}
