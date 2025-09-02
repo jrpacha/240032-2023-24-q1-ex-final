@@ -108,7 +108,7 @@ $\beta = 3/4$. So, substitution of these values in the matrix above yields,
 
 $$
 K =
-10^{8} \left(
+10^{8}\times \left(
 \begin{array}{rrrrr}
   2.48875000 & -2.48875000 &  0.00000000 &  0.00000000 &  0.00000000 \\
  -2.48875000 &  4.52500000 & -2.03625000 &  0.00000000 &  0.00000000 \\
@@ -236,7 +236,7 @@ __Reduced system:__ $K_{m} U_{m} = Q_{m} + F_{m} - K_{1,m} U_{1}$, being
 $$
 \begin{array}{l}
 K_{m} =
-10^{8} \left(
+10^{8}\times \left(
 \begin{array}{rrrr}
   4.52500000 & -2.03625000 &  0.00000000 &  0.00000000 \\
  -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000 \\
@@ -262,7 +262,7 @@ F_{m}^{\top} = \left(
  -1.82291667
 \end{array}
 \right), \\ 
-K_{1,m}^{\top} = 10^{8} 
+K_{1,m}^{\top} = 10^{8}\times 
 \left(
 \begin{array}{rrrr}
  -2.48875000, &
@@ -277,9 +277,9 @@ $$
 So the system is,
 
 $$
-\begin{multline*}
-10^{8}\left(
-\begin{array}{rrrr}
+\begin{align*}
+ 10^{8}\times \left(
+  \begin{array}{rrrr}
   4.52500000 & -2.03625000 &  0.00000000 &  0.00000000 \\
  -2.03625000 &  3.62000000 & -1.58375000 &  0.00000000 \\
   0.00000000 & -1.58375000 &  2.71500000 & -1.13125000 \\
@@ -293,8 +293,8 @@ U_{3} \\
 U_{4} \\
 U_{5} 
 \end{array}
-\right) \\ 
-   \qquad\qquad\qquad\qquad = \left(
+\right) & \\ 
+ = \left(
 \begin{array}{r}
 0.00000000 \\
 0.00000000 \\
@@ -310,7 +310,7 @@ U_{5}
 -1.82291667
 \end{array}
 \right) -
-10^{8}
+10^{8}\times
 \left(
 \begin{array}{r}
  -2.48875000 \\
@@ -318,14 +318,15 @@ U_{5}
   0.00000000 \\
   0.00000000
 \end{array}
-\right) U_{1},
-\end{multline*}
+\right) U_{1}, &
+\end{align*}
 $$
 
 but, by the essential boundary conditions, one has $U_{1} = 0$, so the above
 linear system writes,
 
 $$
+\begin{align*}
 \left(
 \begin{array}{rrrr}
   4.52500000 & -2.03625000 &  0.00000000 &  0.00000000\\
@@ -341,8 +342,8 @@ U_{3}\\
 U_{4}\\
 U_{5}
 \end{array}
-\right) =
-10^{-8} 
+\right) & \\
+= 10^{-8}\times 
 \left(
 \begin{array}{r}
  -7.81250000\\
@@ -350,13 +351,15 @@ U_{5}
  -4.68750000\\
  -6.82291667
 \end{array}
-\right)
+\right) &
+\end{align*}
 $$
 
 We solve it, for example by Cramer's rule, to get:
 
 $$
-U_{2} = 10^{-8} \frac{\left|
+\begin{align*}
+U_{2} &= 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
  -7.81250000 & -2.03625000 &  0.00000000 &  0.00000000\\
  -6.25000000 &  3.62000000 & -1.58375000 &  0.00000000\\
@@ -372,11 +375,9 @@ U_{2} = 10^{-8} \frac{\left|
   0.00000000 &  0.00000000 & -1.13125000 &  1.13125000
 \end{array}
 \right|
-} = -1.02754060\times 10^{-7},
-$$
-
-$$
-U_{3} = 10^{-8} \frac{\left|
+} = -1.02754060\times 10^{-7}, \\
+%
+U_{3} &= 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
    4.52500000 & -7.81250000  &  0.00000000 &  0.00000000\\
   -2.03625000 & -6.25000000  & -1.58375000 &  0.00000000\\
@@ -392,11 +393,9 @@ U_{3} = 10^{-8} \frac{\left|
   0.00000000 &   0.00000000 & -1.13125000 &  1.13125000
 \end{array}
 \right|
-} = -1.89975259\times 10^{-7},
-$$
-
-$$
-U_{4} = 10^{-8} \frac{\left|
+} = -1.89975259\times 10^{-7}, \\
+%
+U_{4} &= 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
   4.52500000 &  -2.03625000 & -7.81250000&  0.00000000\\
  -2.03625000 &   3.62000000 & -6.25000000&  0.00000000\\
@@ -412,11 +411,9 @@ U_{4} = 10^{-8} \frac{\left|
   0.00000000 &   0.00000000 & -1.13125000 &  1.13125000
 \end{array}
 \right|
-} = -2.62653502\times 10^{-7},
-$$
-
-$$
-U_{5} = 10^{-8} \frac{\left|
+} = -2.62653502\times 10^{-7}, \\
+%
+U_{5} &= 10^{-8}\times \frac{\left|
 \begin{array}{rrrr}
   4.52500000 &  -2.03625000 &  0.00000000 & -7.81250000\\
  -2.03625000 &   3.62000000 & -1.58375000 & -6.25000000\\
@@ -433,6 +430,7 @@ U_{5} = 10^{-8} \frac{\left|
 \end{array}
 \right|
 } = -3.22966577\times 10^{-7},
+\end{align*}
 $$
 
 Therefore, the displacements are
