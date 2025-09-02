@@ -50,7 +50,7 @@ at $x = 2$.
 * `-2.8421e-07 m`
 
 __Hint:__ The approximate solution at $x = 1$ is $u_{\text{appr}}(1) =
--1.8998\times 10^{-7}\, \text{m}$.
+-1.8998\times 10^{-7}$ $\text{m}$.
 
 \(c\) (3 points) Find the _elongation_ of the last element $\Omega^{4}$
 (recall that the elongation is the change in the length of the element).
