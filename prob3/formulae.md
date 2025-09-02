@@ -19,17 +19,17 @@ Shape functions of the linear 1D element $\Omega^{e}$. First node at
 position $x^{e}\_{1}$, second node at position $x^{e}\_{2}$:
 
 $$
-\psi^{e}\_{1}(x) = \frac{x-x^{e}\_{2}}{x^{e}_{1} - x^{e}\_{2}},\qquad\qquad
-\psi^{e}\_{2}(x) = \frac{x-x^{e}\_{1}}{x^{e}_{2} - x^{e}\_{1}}.\qquad\qquad
+\psi^{e}\_{1}(x) = \frac{x-x^{e}\_{2}}{x^{e}\_{1} - x^{e}\_{2}},\qquad\qquad
+\psi^{e}\_{2}(x) = \frac{x-x^{e}\_{1}}{x^{e}\_{2} - x^{e}\_{1}}.\qquad\qquad
 $$
 
 $$
-\begin{array}{rcl}
-K^{e}_{1,1} &=& \int_{x^{e}_{1}}^{x^{e}_{2}} E A(x) 
+\begin{align*}
+K^{e}_{1,1} &= \int_{x^{e}_{1}}^{x^{e}_{2}} E A(x) 
 \frac{\mathrm{d}\psi^{e}_{1}}
 {\mathrm{d}x}(x) \frac{\mathrm{d}\psi^{e}_{1}}
 {\mathrm{d}x}(x)\mathrm{d} x \\
- &=&
+ &=
 \frac{E}{\left(x^{e}_{2}-x^{e}_{1}\right)^{2}}\int_{x^{e}_{1}}^{x^{e}_{2}}
 \left(\alpha x + \beta\right)\mathrm{d} x =
 \frac{E}{h^{e}}\left(\alpha\frac{x^{e}_{1} + x^{e}_{2}}{2} + \beta\right)
