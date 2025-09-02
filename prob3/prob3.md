@@ -39,12 +39,10 @@ figure {
 
 <body>
 -->
-<p align="center">
-<figure>
+<div align="center">
     <img src="../figures/fig-prob-3.png" alt="" width=312 height=250/>
     <figcaption>Figure 1</figcaption>
-</figure>
-</p>
+</div>
 
 <!--
 </body>
