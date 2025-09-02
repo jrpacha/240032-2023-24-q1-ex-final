@@ -4,14 +4,14 @@
     
  
 A column is made of a certain material with Young modulus $R = 181\times
-10^{6}\, \text{kN/m}^{2}$. The geometry of the column is shown in the
+10^{6} \text{kN/m}^{2}$. The geometry of the column is shown in the
 figure. We wish to analyze the column for displacements using the FEM.
 
 The column is indeed a three-dimensional structure. However, we wish to
 approximate the column as one-dimensional. To this end, we represent the
 distributed force at the top of the column as a point force $F = 
 5\, \text{kN}$. 
-<img src="../figures/fig-prob-3.png" alt="" width="312" height="250" align=r"ight">
+<img src="../figures/fig-prob-3.png" alt="" width="312" height="250" align="right">
 
 The weight of the material is represented by the body force per unit
 length:
