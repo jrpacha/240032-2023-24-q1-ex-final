@@ -294,7 +294,7 @@ U_{4} \\
 U_{5} 
 \end{array}
 \right) \\ 
-   &= \left(
+   = \left(
 \begin{array}{r}
 0.00000000 \\
 0.00000000 \\
