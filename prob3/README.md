@@ -1,7 +1,4 @@
 # 2023-24-ex-final. Problem 3
-
-
-    
  
 A column is made of a certain material with Young modulus $R = 181\times
 10^{6}$ $\text{kN/m}^{2}$. The geometry of the column is shown in the
