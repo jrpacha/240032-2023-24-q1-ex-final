@@ -24,6 +24,7 @@ $$
 
 where $A(x)$ is the cross-sectional area. 
 
+<!--
 <html>
 <head>
 <style>
@@ -37,13 +38,18 @@ figure {
 </head>
 
 <body>
+-->
+<p align="center">
 <figure>
     <img src="../figures/fig-prob-3.png" alt="" width=312 height=250/>
     <figcaption>Figure 1</figcaption>
 </figure>
+</p>
 
+<!--
 </body>
 </html>
+-->
 
 Consider a mesh with $4$ linear elements of equal length $h = 0.5\, \text{m}$.
 
