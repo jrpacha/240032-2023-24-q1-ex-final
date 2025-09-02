@@ -18,7 +18,7 @@ length:
 <img src="../figures/fig-prob-3.png" alt="" width="350" height="270" align="right">
 
 $$
-f(x) = -6.25 ( 3 - x ) \text{kN/m}.
+f(x) = -6.25 ( 3 - x )\ \text{kN/m}.
 $$
 
 The governing differential equation for the problem is given by:
