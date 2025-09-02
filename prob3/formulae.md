@@ -42,38 +42,40 @@ $\Omega^{e}$, for $e = 1,2,3,4$. Therefore:
 
 $$
 \begin{array}{c}
-K^{1} = \displaystyle\frac{\alpha E}{2}\left(
+K^{1} = \displaystyle\frac{\alpha E}{2}
+\left(
 \begin{array}{rr}
-1 & -1 \\ [15pt]
+1 & -1 \\ 
 -1 & 1
-\end{array}\right) 
+\end{array}
+\right) 
 + 2E\beta\left(
 \begin{array}{rr}
-1 & -1 \\ [15pt]
+1 & -1 \\ 
 -1 & 1\end{array}
-\right), \\ [15pt] 
+\right), \\  
 K^{2} = \displaystyle\frac{\alpha E}{2}\left(\begin{array}{rr}
-3 & -3 \\ [15pt]
+3 & -3 \\ 
 -3 & 3
 \end{array}\right) + 2E\beta\left(
 \!\begin{array}{rr}
-1 & -1 \\ [15pt]
--1 & 1\end{array}\right), \\ [15pt]
+1 & -1 \\ 
+-1 & 1\end{array}\right), \\
 K^{3} = \displaystyle\frac{\alpha E}{2}
 \left(\begin{array}{rr}
-5 & -5 \\ [15pt]
+5 & -5 \\ 
 -5 & 5
 \end{array}\right) + 2E\beta\left(
 \begin{array}{rr}
-1 & -1 \\ [15pt]
--1 & 1\end{array}\right), \\ [15pt]
+1 & -1 \\ 
+-1 & 1\end{array}\right), \\ 
 K^{4} = \displaystyle\frac{\alpha E}{2}
 \left(\begin{array}{rr}
-7 & -7 \\ [15pt]
+7 & -7 \\ 
 -7 & 7
 \end{array}\right) + 2E\beta\left(
 \begin{array}{rr}
-1 & -1 \\ [15pt]
+1 & -1 \\ 
 -1 & 1
 \end{array}\right).
 \end{array}
