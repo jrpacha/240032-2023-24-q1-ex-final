@@ -10,26 +10,19 @@ distributed force at the top of the column as a point force $F =
 
 The weight of the material is represented by the body force per unit
 lenght:
+
 $$
 f(x) = -6.25 ( 3 - x ),\, \text{kN/m}.
 $$
 
 The governing differential equation for the problem is given by:
+
 $$
 - \frac{\text{d}}{\mathrm{d} x}\left(E A (x) \frac{\mathrm{d} u}
   {\text{d} x}\right) = f(x), 
 $$
 
 where $A(x)$ is the cross-sectional area. 
-<!--
-
-<img src = "fig-prob-3.png" alt = "drawing" width = "300" height = "250" />
--->
-<!--
-<p align = right>
-<img src = "fig-prob-3.png" width="400" height="350" >
-</p>
--->
 
 <div style="clear: both;">
   <div style="float: right; margin-right 1em;">
@@ -39,33 +32,33 @@ where $A(x)$ is the cross-sectional area.
   </div>
 </div>
 
-Consider a mesh with $4$ linear elements of equal length $h = 0.5\, m$.
+Consider a mesh with $4$ linear elements of equal length $h = 0.5\, \text{m}$.
 
-(a) _(3 points)_ The value $K_{2,3}$ of the stiffness matrix is:
+(a) (3 points) The value $K_{2,3}$ of the stiffness matrix is:
 
 * Empty answer (no penalty)
-* $\texttt{-2.0362e+08}\, \text{m}$ ![check.png](../figures/check.png =15x15)
-* $\texttt{-1.8326e+08}\, \text{m}$
-* $\texttt{-2.2806e+08}\, \text{m}$
-* $\texttt{-2.2602e+08}\, \text{m}$
+* `-2.0362e+08 m` ![check.png](../figures/check.png =15x15)
+* `-1.8326e+08 m` 
+* `-2.2806e+08 m`
+* `-2.2602e+08 m`
 
-(b) _(4 points)_ Compute the approximate solution $u_{\text{appr}}(x)$
+(b) (4 points) Compute the approximate solution $u_{\text{appr}}(x)$
 at $x = 2$.
 
 * Empty answer (no penalty)
-* $\texttt{-3.5526e-07}\, \text{m}$
-* $\texttt{-3.5849e-07}\, \text{m}$
-* $\texttt{-3.2297e-07}\, \text{m}$ ![check.png](../figures/check.png =15x15)
-* $\texttt{-2.8421e-07}\, \text{m}$
+* `-3.5526e-07 m`
+* `-3.5849e-07 m`
+* `-3.2297e-07 m` ![check.png](../figures/check.png =15x15)
+* `-2.8421e-07 m`
 
 __Hint:__ The approximate solution at $x = 1$ is $u_{\text{appr}}(1) =
-\texttt{-1.8998e-07}\, \text{m}$.
+-1.8998\times 10^{-7}\, \text{m}$.
 
-\(c\) _(3 points)_ Find the _elongation_ of the last element $\Omega^{4}$
+\(c\) (3 points) Find the _elongation_ of the last element $\Omega^{4}$
 (recall that the elongation is the change in the length of the element).
 
 * Empty answer (no penalty) 
-* $\texttt{-6.0313e-08}\, \text{m}$ ![check.png](../figures/check.png =15x15)
-* $\texttt{-6.7551e-08}\, \text{m}$
-* $\texttt{-6.5138e-08}\, \text{m}$
-* $\texttt{-5.4282e-08}\, \text{m}$
+* `-6.0313e-08 m` ![check.png](../figures/check.png =15x15)
+* `-6.7551e-08 m`
+* `-6.5138e-08 m`
+* `-5.4282e-08 m`
