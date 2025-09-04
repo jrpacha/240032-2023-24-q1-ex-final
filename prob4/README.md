@@ -4,7 +4,7 @@ file `meshDataHoleS5.m` (see Figure 1). Let us define the __interior
 boundary__ $C$, as the small circumference inside the domain and the
 __exterior boundary__ $E$ as the remaining part of the boundary of the
 boundary of $D$ (i.e. $E = \partial\Omega\setminus C$). We also consider
-$L$, the left part of $E$, that is, $L = \left\\{(x,y)\in E, x=0, 0\le y\le 2\right\\}$.
+$L$, the left part of $E$, that is, $L = \lbrace (x,y)\in E, x=0, 0\le y\le 2 \rbrace$.
 
 <!--
 Contonue editing
@@ -42,7 +42,7 @@ __Hint b:__ The value of $u(114)$ is `5.7331e+01`
 * `5.5236e+01`
 * `5.6743e+01`
 
-($\text{c}$) \(2 points\) Let us define $B = \\{ (x,y)\in E, x > 3.5 \\}$. Solve the
+($\text{c}$) \(2 points\) Let us define $B = \lbrace (x,y)\in E, x > 3.5 \rbrace$. Solve the
 problem with boundary conditions on $L$ and $C$ as in (b), but now,
 considering on $B$ a convection boundary condition with $\beta = 2$ and
 $T_{\infty} = 5$. The value of $T(P)$ is then:
@@ -52,6 +52,24 @@ is $55$.
 
 __Hint c2:__ The value of $u(114)$ is `5.3805e+01`
 
-
-
+* `5.2499e+01` <img src="../figures/check.png" width=15 height=15>
+* `5.2622e+01`
+* `5.1918e+01`
+* Leave it empty (no penalty)
+* `5.3700e+01`
  
+(d) (3 points) By design requirements, we want to enlarge the domain $D$
+adding to the mesh a new triengular element, $\Omega^{n} (see Figure 2) on
+the boundary $y = 2$, like an outer spike. Consider $\Omega^{n}$ de an
+__isosceles triangle exterior to__ $D$ where the nodes $27$ and $26$ are
+its respective local nodes $1$ and $2$ (i.e., they define
+$\Gamma^{n}_{1}$).
+
+The new domain $\bar{D} = D \cup \Omega^{n}$ shares the same boundaries
+$C$, $L$ with $D$. Solve the problem in the new domain $\bar{D}$ with the
+same boundary conditions: $T \equiv 50$ on $L$, $T(x,y) = 25 (x - y^{2})$ on
+$C$ (as in (b)) and fixing the temperature of the __new node__ to $110$. 
+
+Then, the value of $T(P)$ is:
+
+__Hint d:__ The value of $u(114)$ is `6.3545e+01`
