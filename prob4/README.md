@@ -17,9 +17,8 @@ coordinates $(0.50, 0.25, 0.25)$.
 90$ on $C$, $T\equiv 50$, on $L$. The value of $T(P)$ is:
 
 __Hint a1:__ When no boundary conditions are given, like on $E\setminus L$,
-it is equivalent to impose the default condition $q_{n}^{k}\equiv 0$ which
-
-is explicitly imposed when you initialize $Q = 0$ in the Matlab code.
+it is equivalent to impose the default condition $q_{n}^{k}\equiv 0$ which is explicitly 
+imposed when you initialize $Q = 0$ in the Matlab code.
 
 __Hint a2:__ The value $u(114)$ is `7.1913e+01`
 
@@ -43,7 +42,7 @@ __Hint b:__ The value of $u(114)$ is `5.7331e+01`
 * `5.5236e+01`
 * `5.6743e+01`
 
-($\text{c}$) \(2 points\) Let us define $B = \{(x,y)\in E, x > 3.5\}$. Solve the
+($\text{c}$) \(2 points\) Let us define $B = \\{ (x,y)\in E, x > 3.5 \\}$. Solve the
 problem with boundary conditions on $L$ and $C$ as in (b), but now,
 considering on $B$ a convection boundary condition with $\beta = 2$ and
 $T_{\infty} = 5$. The value of $T(P)$ is then:
