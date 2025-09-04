@@ -4,7 +4,7 @@ file `meshDataHoleS5.m` (see Figure 1). Let us define the __interior
 boundary__ $C$, as the small circumference inside the domain and the
 __exterior boundary__ $E$ as the remaining part of the boundary of the
 boundary of $D$ (i.e. $E = \partial\Omega\setminus C$). We also consider
-$L$, the left part of $E$, that is, $L = \{(x,y)\in E, x=0, 0\le y\le 2\}$.
+$L$, the left part of $E$, that is, $L = \left\{(x,y)\in E, x=0, 0\le y\le 2\right\}$.
 
 <!--
 Contonue editing
@@ -43,7 +43,7 @@ __Hint b:__ The value of $u(114)$ is `5.7331e+01`
 * `5.5236e+01`
 * `5.6743e+01`
 
-\(c\) \(2 points\) Let us define $B = \{(x,y)\in E, x > 3.5\}$. Solve the
+($\text{c}$) \(2 points\) Let us define $B = \{(x,y)\in E, x > 3.5\}$. Solve the
 problem with boundary conditions on $L$ and $C$ as in (b), but now,
 considering on $B$ a convection boundary condition with $\beta = 2$ and
 $T_{\infty} = 5$. The value of $T(P)$ is then:
