@@ -1,7 +1,11 @@
+% plotMesh.m
+% Shows the meshed domain of problem 2, and saves it
+% to a png graphics file: fig-prob-2.png
+%
 clearvars
 close all
 
-fileName = 'fig-prob-2.pdf';
+fileName = 'fig-prob-2.png';
 
 nodes = [0,0;
     5,0;
@@ -66,4 +70,4 @@ text(2.75,1.7,'$$\Omega^{2}$$',Interpreter='latex',FontSize=22)
 
 hold off
 
-saveas(gcf,fileName,'pdf')
+exportgraphics(gca, fileName, 'ContentType', 'image');
