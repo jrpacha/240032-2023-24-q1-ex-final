@@ -30,14 +30,14 @@ is thw value of $K_{2,2}$ when $h_{1} = 0.1$ and $h_{2} = 0.2$?
 * Leave it empty (no penalty)
 * `2.5000e+02`
 * `1.5000e+02`
-* `2.0000e+02`
+* `2.0000e+02` <img src="../figures/check.png" width=15 height=15>
 
 __Hint:__ if $h_{1} = 0.2$ and $h_{2} = 0.1$ this value is `2.5000e+02`.
 
 (b) (5 points) Assuming $h_{1} = 0.1$ and $h_{2} = 0.2$, find the
 approximation $U_{3}$ of the solution $u(L)$.
 
-* `1.4375e+02`
+* `1.4375e+02` <img src="../figures/check.png" width=15 height=15>
 * Leave it empty (no penalty)
 * `1.6538e+02`
 * `1.5714e+02`
@@ -48,7 +48,7 @@ __Hint:__ $Q_{3}$ satisfies the equation $Q_{3} + 20 (U_{3} - 50) = 0$.
 (c) (2 points) Now suppose that $h_{1} = h_{2} = L/2$. Give the value of $L
 = h_{1} + h_{2}$ so that $u_{3} = 120$.
 
-* `7.6190e-01`
+* `7.6190e-01` <img src="../figures/check.png" width=15 height=15>
 * Leave it empty (no penalty)
 * `6.6667e-01`
 * `3.3333e-01`
