@@ -2,7 +2,7 @@
 Consider the following problem on $[0,L]$ given by the equation
 
 $$
--\frac{\mathrm{d}}{\mathrm{d} x}\left(k(x)\frac{\mathrm{d} u}%
+-\frac{\mathrm{d}}{\mathrm{d} x}\left(k(x)\frac{\mathrm{d} u}
 {\mathrm{d} x}\right) = 0,\qquad\qquad 0 < x < L
 $$
 
