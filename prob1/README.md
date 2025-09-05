@@ -18,7 +18,7 @@ $$
 
 with $k_{1} = 10$, $k_{2} = 20$ and $u_{0} = 200$.
 
-We will solve the one-dimensional problem by means of a linear elements at
+We will solve the one-dimensional problem by means of a linear element at
 $\Omega^{1}$ and another at $\Omega^{2}$.
 
 (a) (3 points) Let $K$ be the stiffness matrix of the global problem. Which
