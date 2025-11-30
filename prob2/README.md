@@ -1,4 +1,6 @@
-# 2023-24-ex-final. Problem 2
+# Final Exam Course 2023-24 Q2
+
+## Problem 2
 
 Consider the equation $-c\Delta u = 0$ on the domain 
 $\mathcal{D}=\Omega^1\cup\Omega^2$ meshed with two elements and connectivity matrix
